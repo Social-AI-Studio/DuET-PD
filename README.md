@@ -7,7 +7,7 @@
 
 ---
 
-This repository contains the datasets, code, and analysis notebooks necessary to reproduce the results presented in the paper: ***Persuasion Dynamics in LLMs: Investigating Robustness and Adaptability in Knowledge and Safety with DuET-PD***.
+This repository contains the datasets, code, and analysis notebooks necessary to reproduce the results presented in the paper: ***[Persuasion Dynamics in LLMs: Investigating Robustness and Adaptability in Knowledge and Safety with DuET-PD](https://arxiv.org/abs/2508.17450)***.
 
 We evaluate the susceptibility of Large Language Models (LLMs) to persuasion across multi-turn dialogues, focusing on the critical balance between resisting misinformation (negative persuasion) and accepting valid corrections (positive persuasion). We assess performance on knowledge-intensive (MMLU-Pro) and safety-critical (SALAD-Bench) benchmarks, analyse the effectiveness of various persuasion techniques, and evaluate mitigation strategies including prompting and Direct Preference Optimisation (DPO) using the LlamaFactory framework.
 
@@ -314,12 +314,19 @@ After training, evaluate the resulting DPO-finetuned models.
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@misc{<arxiv_id_TODO>,
-      title={TODO},
-      author={Authors_TODO},
-      year={2025},
-      eprint={arXiv ID_TODO},
-      archivePrefix={arXiv},
-      primaryClass={TODO}
+@misc{tanPersuasionDynamicsLLMs2025,
+  title = {Persuasion Dynamics in {{LLMs}}: Investigating Robustness and Adaptability in Knowledge and Safety with {{DuET-PD}}},
+  shorttitle = {Persuasion Dynamics in {{LLMs}}},
+  author = {Tan, Bryan Chen Zhengyu and Chin, Daniel Wai Kit and Liu, Zhengyuan and Chen, Nancy F. and Lee, Roy Ka-Wei},
+  year = {2025},
+  month = aug,
+  number = {arXiv:2508.17450},
+  eprint = {2508.17450},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2508.17450},
+  abstract = {Large Language Models (LLMs) can struggle to balance gullibility to misinformation and resistance to valid corrections in persuasive dialogues, a critical challenge for reliable deployment. We introduce DuET-PD (Dual Evaluation for Trust in Persuasive Dialogues), a framework evaluating multi-turn stance-change dynamics across dual dimensions: persuasion type (corrective/misleading) and domain (knowledge via MMLU-Pro, and safety via SALAD-Bench). We find that even a state-of-the-art model like GPT-4o achieves only 27.32\% accuracy in MMLU-Pro under sustained misleading persuasions. Moreover, results reveal a concerning trend of increasing sycophancy in newer open-source models. To address this, we introduce Holistic DPO, a training approach balancing positive and negative persuasion examples. Unlike prompting or resist-only training, Holistic DPO enhances both robustness to misinformation and receptiveness to corrections, improving Llama-3.1-8B-Instruct's accuracy under misleading persuasion in safety contexts from 4.21\% to 76.54\%. These contributions offer a pathway to developing more reliable and adaptable LLMs for multi-turn dialogue. Code is available at https://github.com/Social-AI-Studio/DuET-PD.},
+  archiveprefix = {arXiv},
+  langid = {english},
 }
 ```

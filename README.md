@@ -309,7 +309,7 @@ After training, evaluate the resulting DPO-finetuned models.
 
 *   **Run Analysis (Steps 3 & 4):** Use `3_analysis.py` and `4_analysis_tables.ipynb`, pointing to the results directories in `results_after_train/` to generate metrics and figures for the fine-tuned models. Remember the naming convention difference when interpreting results against the paper.
 
-## 📄 Citation (TODO)
+## 📄 Citation
 
 If you find this work useful, please cite our paper:
 

@@ -1,5 +1,8 @@
 # Dual Evaluation for Trust in Persuasive Dialogues (DuET-PD)
 
+[![arXiv](https://img.shields.io/badge/arXiv-2508.17450-b31b1b.svg)](https://arxiv.org/abs/2508.17450)
+[![Hugging Face Datasets](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/Incomple/DuET-PD)
+
 ### **Authors:** [Bryan Chen Zhengyu Tan](https://scholar.google.com.sg/citations?user=86_eWK0AAAAJ&hl=en)<sup>1,2</sup>, [Daniel Wai Kit Chin](https://scholar.google.com/citations?user=Y701_bEAAAAJ&hl=en)<sup>1</sup>, [Zhengyuan Liu](https://scholar.google.com/citations?user=tqzidGsAAAAJ&hl=en)<sup>2</sup>, [Nancy F. Chen](https://scholar.google.com/citations?user=K3Z9UiAAAAAJ&hl=en)<sup>2</sup>, [Roy Ka-Wei Lee](https://scholar.google.com/citations?user=uQxdOlsAAAAJ&hl=en)<sup>1</sup>
 
 <small><sup>1</sup>Singapore University of Technology and Design (SUTD)</small>  
